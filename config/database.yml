@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  port: 5433
+  pool: 10
+  host: localhost
+  username: aserafin
+  password:
+
+development:
+  <<: *default
+  database: lounge_bot_development
+  host: localhost
+
+test:
+  <<: *default
+  database: lounge_bot_test
+
+production:
+  <<: *default
+  database: lounge_bot_production
