@@ -1,0 +1,4 @@
+en:
+  unknown_intent:
+    - "Sorry, I'm not sure what do you mean. Could you rephrase?"
+    - "Just a stupid bot here - I will get better but in the mean time please ping real human :)"
